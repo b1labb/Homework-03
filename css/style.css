@@ -1,0 +1,168 @@
+:root {
+    --sky-blue: #2196F3;
+    --black: #212121;
+    --light-black: #2F303A;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--grey);
+}
+
+/* Header section */
+.header:hover .header__navigation a:hover {
+    color: #2196F3;
+}
+
+
+.header__logo__web {
+
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: var(--sky-blue);
+}
+
+a {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+.header__navigation a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.header__navigation b {
+    color: #2196F3;
+}
+
+button {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+button.service {
+
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white)
+}
+
+button.service:hover {
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: #2196F3
+}
+
+button:focus {
+    background-color: grey;
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.header__info a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+
+.style__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+/* Strong section points */
+.strong__section__title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.strong__section__text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Conteiner project realizate */
+
+.card {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+/* Conteiner team */
+.conteiner__name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.conteiner__roll {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Footer section */
+
+.footer__logoweb {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: var(--sky-blue)
+}
+
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #212121;
+}
